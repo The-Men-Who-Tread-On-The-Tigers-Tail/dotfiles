@@ -237,22 +237,22 @@ default_floating_border pixel
 
 smart_borders on
 smart_borders no_gaps
+
 #rounded corners and opacity and shadows
-#exec_always picom --shadow-radius 15 --corner-radius 10 --fading --inactive-opacity 0.5
 exec_always picom
 
 # gaps 
 workspace $workspace1 gaps top 0
-workspace $workspace1 gaps left 22
-workspace $workspace1 gaps right 22
-workspace $workspace1 gaps bottom 22
+workspace $workspace1 gaps left 14
+workspace $workspace1 gaps right 14
+workspace $workspace1 gaps bottom 14
 
-workspace $workspace2 gaps inner 11
-workspace $workspace2 gaps outer 11
-workspace $workspace3 gaps inner 11
-workspace $workspace3 gaps outer 11
-workspace $workspace4 gaps inner 11
-workspace $workspace4 gaps outer 11
+workspace $workspace2 gaps inner 7
+workspace $workspace2 gaps outer 7
+workspace $workspace3 gaps inner 7
+workspace $workspace3 gaps outer 7
+workspace $workspace4 gaps inner 7
+workspace $workspace4 gaps outer 7
 
 workspace $workspace1 output DP-2
 workspace $workspace2 output DP-3
