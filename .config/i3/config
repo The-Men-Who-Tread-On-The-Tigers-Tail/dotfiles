@@ -234,9 +234,11 @@ mouse_warping none
 default_border none
 default_floating_border pixel
 
-
 smart_borders on
 smart_borders no_gaps
+
+# deprecated but works to remove window title bar
+for_window [class="^.*"] border none
 
 #rounded corners and opacity and shadows
 exec_always picom
