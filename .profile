@@ -40,7 +40,7 @@ fi
 
 export JAVA_HOME="/usr/lib/jvm/default"
 export PATH="$PATH:$JAVA_HOME/bin"
-export EDITOR="nvim"
+export EDITOR="lvim"
 
 #set keyboard layout
 setxkbmap eu

@@ -62,10 +62,11 @@ alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
 
-#set nvim as default
-alias vi='nvim'
+#set lvim as default
+alias vi='lvim'
 alias iv='vi'
 alias v='vi'
+alias lv='lvim'
 alias nv='nvim'
 
 # Stop after sending count ECHO_REQUEST packets #
@@ -135,10 +136,6 @@ alias gfe='git fetch'
 alias gfeo='git fetch origin'
 alias gme='git merge'
 alias gsw='git switch'
-
-# weather
-alias weather='curl wttr.in'
-alias weather2='curl v2.wttr.in'
 
 # config command to manage dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
