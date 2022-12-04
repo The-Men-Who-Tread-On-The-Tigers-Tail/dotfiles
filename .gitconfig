@@ -1,0 +1,12 @@
+[user]
+	email = The-Men-Who-Tread-On-The-Tigers-Tail@posteo.de
+	name = The-Men-Who-Tread-On-The-Tigers-Tail
+[core]
+	editor = lvim
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
